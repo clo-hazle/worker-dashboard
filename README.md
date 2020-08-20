@@ -1,6 +1,6 @@
 # worker-dashboard
 
-## Project Stack
+### Project Stack
 - Next.js
 - Typescript
 - mobx
