@@ -1,0 +1,52 @@
+body {
+  background: #fafdfe;
+  height: 100vh;
+  width: 100vw;
+  min-width: 1024px;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sideMenu {
+  background: white;
+  box-shadow: 0px -3px 14px rgba(118, 125, 134, 0.32);
+  width: 120px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  //link
+  a {
+    color: #767d86;
+    opacity: 0.4;
+    padding: 2rem 0;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+
+    &.active {
+      opacity: 1;
+    }
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  //icon
+  object {
+    width: 20px;
+    fill: inherit;
+    pointer-events: none;
+  }
+}
